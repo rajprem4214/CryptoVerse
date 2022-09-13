@@ -1,70 +1,76 @@
-# Getting Started with Create React App
+# Crypto Verse
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+**Cryptoverse** is an online platform to showcase all the **cryptocurrencies** and their details all over the world. With the help of **Coin Ranking** API , I have made **encylopedia** of cryptocurrency.
 
-## Available Scripts
+<br />
 
-In the project directory, you can run:
+## Homepage Glance
 
-### `npm start`
+<img src="https://camo.githubusercontent.com/06005647905522c1c8a706b5b54b42199822f022a8857491f64bbd2c90eefde8/68747470733a2f2f692e6962622e636f2f386768354a63382f696d6167652e706e67" alt="HomePage" border="0" >
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+<br />
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+## Features
 
-### `npm test`
+- **Global Crypto Stats**
+  - Total Cryptocurrencies
+  - Total Market Cap
+  - Total Markets
+  - Total Exchanges
+  - Total 24h Volume
+- **Crypto News**
+- **Query through all cryptocurrencies**
+- **Query through all news**
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+## TechStack
 
-### `npm run build`
+1. Front End / Client Side
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+   - ReactJS
+   - Bootstrap - CSS and other components
+   - Ant Design
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+2. BackEnd Server:
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+   - Coin Ranking API
 
-### `npm run eject`
+   - Redux Toolkit
+   - State Management
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+   <br />
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+## Installation
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+### Clone the project:
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+```bash
+  git clone https://github.com/rajprem4214/Face-Meet.git
+```
 
-## Learn More
+Go to the project directory
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+```bash
+  cd cryptoverse
+```
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+Install all dependencies
 
-### Code Splitting
+```bash
+ npm install
+```
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+Start frontend server
 
-### Analyzing the Bundle Size
+```bash
+ npm run start
+```
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+#### Local Url for Server:
 
-### Making a Progressive Web App
+- Frontend is running on http://localhost:3000
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+<br />
 
-### Advanced Configuration
+## Author
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+- [Prem Raj](https://www.github.com/rajprem4214)
